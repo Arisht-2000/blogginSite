@@ -19,11 +19,9 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
-    path(r'',views.index),
+    path('',views.index),
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
     path('secret/', admin.site.urls),
-    path(r'json_password_validator/', views.json_password_validator),
-    path(r'addblog/',views.createblog),
-    path(r'logout/',views.logout_view),
-    path(r'pass/',views.get_pass),
+    path('addblog/',views.createblog),
+    path('logout/',views.logout_view),
 ]
