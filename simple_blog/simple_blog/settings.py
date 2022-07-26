@@ -25,13 +25,14 @@ SECRET_KEY = 'django-insecure-dt(e6**6%+t&2=t)7!yvwv*bm^%^_+^isgz0q-ke1+viq7(@^&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-SECURE_SSL_REDIRECT = SESSION_COOKIE_SECURE = CSRF_COOKIE_SECURE = True
+'''SECURE_SSL_REDIRECT = SESSION_COOKIE_SECURE = CSRF_COOKIE_SECURE = True
 SECURE_REFERRER_POLICY = 'strict-origin'
 SECURE_HSTS_SECONDS = 31536000
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_PRELOAD = True'''
 
-ALLOWED_HOSTS = ["127.0.0.1","Arisht.pythonanywhere.com"]
+#ALLOWED_HOSTS = ["127.0.0.1","Arisht.pythonanywhere.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
